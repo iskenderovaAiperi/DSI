@@ -1,0 +1,38 @@
+.about {
+    background: #F7F7F7;
+    padding-bottom: 63px;
+
+    &__general {
+        display: flex;
+    }
+
+    &__img {
+        width: 50%;
+    }
+
+    &__words {
+        width: 50%;
+        padding: 57px 0 63px;
+    }
+
+    &__well {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 133.69%;
+        /* or 43px */
+        color: #1F2E35;
+        margin-bottom: 24px;
+    }
+
+    &__dwidasa {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 27px */
+        color: #30444E;
+    }
+}

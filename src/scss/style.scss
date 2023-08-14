@@ -1,0 +1,37 @@
+@import '../fonts/roboto.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main {
+    &__red {
+        color: rgba(238, 66, 72, 1);
+    }
+}
+
+@import'_header.scss';
+@import'_home.scss';
+@import'_about.scss';
+@import'_services.scss';
+@import'_contacts.scss';
+@import'_footer.scss';

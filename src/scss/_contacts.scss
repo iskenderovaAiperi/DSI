@@ -1,0 +1,57 @@
+.contacts {
+    display: flex;
+    padding: 87px 0 13px;
+
+    &__general {
+        display: flex;
+    }
+
+    &__dsi {
+        width: 40%;
+    }
+
+    &__contact {
+        width: 60%;
+    }
+
+    &__text {
+        padding: 10px 0 8px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #263238;
+    }
+
+    &__lit-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 149.19%;
+        /* or 27px */
+        color: #263238;
+    }
+
+    &__contact {
+        padding-bottom: 15px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #263238;
+    }
+
+    &__lit-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 149.19%;
+        /* or 27px */
+        color: #263238;
+    }
+}
